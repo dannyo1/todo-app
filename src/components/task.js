@@ -9,7 +9,7 @@ const Task = ({ name }) => {
        * TODO: add an html or bootstrap element that uses the name variable to display an individual task
        */
       <ListGroup>
-      <ListGroup.Item>{this.name}</ListGroup.Item>
+      <ListGroup.Item>{name}</ListGroup.Item>
     </ListGroup>
        }
     </div>
