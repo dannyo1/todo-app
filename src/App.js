@@ -60,7 +60,7 @@ const App = () => {
              * 1. placeholder (string) -> pass a string explaining what the input is for (ex: "Enter a task!")
              * 2. onChange (function) -> pass one of the functions above that handles the user's input
              */}
-            <FormControl placeholder = "enter a task babe" onChange={handleInput(this)}/>
+            <FormControl placeholder = "enter a task babe" onChange={handleInput()}/>
             <InputGroup.Append>
               {/** TODO: Add a prop & add some text to the button
                * 1. onClick (function) -> pass one of the functions above that handles a task being added
