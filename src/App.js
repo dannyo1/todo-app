@@ -71,7 +71,7 @@ const App = () => {
           </Form.Group>
         </Form>
         {/*using your tasks array, map through it and pass each task string to the Task component via the name prop*/}
-        {tasks.map((task) => {task.name = this.useState})}
+        {tasks.map((task) => {task.name = this.name})}
       </div>
     </div>
   );
